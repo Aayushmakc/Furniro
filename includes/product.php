@@ -1,63 +1,125 @@
 <section class="index-product section-padding">
   <div class="container">
-    <h2 class="text-center">Our Products</h2>
+     <h2 class="text-center">Our Products</h2>
+    <!-- First row -->
     <div class="row">
       <!-- Card 1 -->
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-lg-3">
         <div class="card">
-          <div class="position-absolute top-0 start-0 p-2">
-            <span class="badge bg-danger">Sale</span>
+          <div class="position-absolute top-0 end-0 p-2">
+            <span class="badge custom-badge">-30%</span>
           </div>
-          <img src="path/to/your/image1.jpg" class="card-img-top" alt="Product 1">
+          <img src="./images/Syltherine.png" class="card-img-top" alt="Product 1">
           <div class="card-body">
             <h5 class="card-title">Syltherine</h5>
             <p class="card-text">Stylish cafe chair</p>
-            <p class="card-text"><del>Rp 3.500.000</del> Rp 2.500.000</p>
+            <p class="card-price"> Rp 2.500.000 <del>Rp 3.500.000</del></p>
           </div>
         </div>
       </div>
       <!-- Card 2 -->
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
-          <div class="position-absolute top-0 start-0 p-2">
-            <span class="badge bg-success">New</span>
-          </div>
-          <img src="path/to/your/image2.jpg" class="card-img-top" alt="Product 2">
+          <img src="./images/Leviosa.png" class="card-img-top" alt="Product 2">
           <div class="card-body">
             <h5 class="card-title">Leviosa</h5>
             <p class="card-text">Stylish cafe chair</p>
-            <p class="card-text">Rp 2.500.000</p>
+            <p class="card-price">Rp 2.500.000</p>
           </div>
         </div>
       </div>
       <!-- Card 3 -->
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
-          <div class="position-absolute top-0 start-0 p-2">
-            <span class="badge bg-warning text-dark">Limited</span>
+          <div class="position-absolute top-0 end-0 p-2">
+            <span class="badge custom-badge">-50%</span>
           </div>
-          <img src="path/to/your/image3.jpg" class="card-img-top" alt="Product 3">
+          <img src="./images/Lolito.png" class="card-img-top" alt="Product 3">
           <div class="card-body">
             <h5 class="card-title">Lolito</h5>
             <p class="card-text">Luxury big sofa</p>
-            <p class="card-text"><del>Rp 14.000.000</del> Rp 7.000.000</p>
+            <p class="card-price"> Rp 7.000.000 <del>Rp 14.000.000</del></p>
           </div>
         </div>
       </div>
       <!-- Card 4 -->
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
-          <div class="position-absolute top-0 start-0 p-2">
-            <span class="badge bg-info">Bestseller</span>
+          <div class="position-absolute top-0 end-0 p-2">
+            <span class="badge custom">New</span>
           </div>
-          <img src="path/to/your/image4.jpg" class="card-img-top" alt="Product 4">
+          <img src="./images/Respira.jpeg" class="card-img-top" alt="Product 4">
           <div class="card-body">
-            <h5 class="card-title">Lolito</h5>
+            <h5 class="card-title">Respira</h5>
             <p class="card-text">Luxury big sofa</p>
-            <p class="card-text"><del>Rp 14.000.000</del> Rp 7.000.000</p>
+            <p class="card-price"> Rp 7.000.000 <del>Rp 14.000.000</del></p>
           </div>
         </div>
       </div>
+
     </div>
+    <!-- second row -->
+
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-lg-3">
+        <div class="card">
+          <img src="./images/Grifo.png" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title"> Grifo </h5>
+            <p class="card-text">Night lamp</p>
+            <p class="card-price"> Rp 1.500.000</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+        <div class="position-absolute top-0 end-0 p-2">
+            <span class="badge custom">New</span>
+          </div>
+          <img src="./images/Muggo.png" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Muggo</h5>
+            <p class="card-text">Small mug</p>
+            <p class="card-price">Rp 1.500.000</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <div class="position-absolute top-0 end-0 p-2">
+            <span class="badge custom-badge">-50%</span>
+          </div>
+          <img src="./images/Pingky.jpeg" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Pingky</h5>
+            <p class="card-text">Cute bed set</p>
+            <p class="card-price"> Rp 7.000.000 <del>Rp 14.000.000</del></p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <div class="position-absolute top-0 end-0 p-2">
+            <span class="badge custom">New</span>
+          </div>
+          <img src="./images/potty.jpeg" class="card-img-top" alt="Product 4">
+          <div class="card-body">
+            <h5 class="card-title">Potty</h5>
+            <p class="card-text">Minimalist flower pot</p>
+            <p class="card-price"> Rp 5.00.000</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Button Wrapper -->
+    <div class="button-wrapper">
+      <button type="button" class="btn btn-secondary">Show More</button>
+    </div>
+
   </div>
 </section>

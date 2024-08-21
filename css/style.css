@@ -252,6 +252,16 @@ section {
   transform: scale(1.05);
 }
 
+.btn-secondary {
+  background-color: #FFFFFF;
+  border: 2px solid #B88E2F;
+  color: #B88E2F;
+  padding: 10px 70px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 header {
   position: fixed;
   z-index: 1000;
@@ -397,6 +407,9 @@ header .navbar .offcanvas .offcanvas-body .nav-btn {
     margin-top: 10px;
   }
 }
+.index-about {
+  padding-bottom: 0 !important;
+}
 .index-about .container {
   text-align: center;
 }
@@ -424,7 +437,55 @@ header .navbar .offcanvas .offcanvas-body .nav-btn {
 }
 
 .index-product {
-  background-color: rgb(84, 158, 158);
+  padding-top: 20px !important;
+}
+.index-product .container .text-center {
+  font-size: 38px;
+  font-weight: 700;
+}
+.index-product .container .row .card {
+  border: none;
+  background-color: #F4F5F7;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+.index-product .container .row .card .badge {
+  border-radius: 50%;
+  padding: 15px 10px;
+}
+.index-product .container .row .card .badge.custom-badge {
+  background-color: #E97171;
+}
+.index-product .container .row .card .badge.custom {
+  background-color: #2EC1AC;
+}
+.index-product .container .row .card .card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+.index-product .container .row .card .card-body .card-title {
+  font-size: 23px;
+  font-weight: 700;
+}
+.index-product .container .row .card .card-body .card-text {
+  font-size: 16px;
+  color: #898989;
+}
+.index-product .container .row .card .card-body .card-price {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.index-product .container .row .card .card-body .card-price del {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #898989;
+}
+.index-product .container .button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

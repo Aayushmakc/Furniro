@@ -10,3 +10,12 @@
   transform: scale(1.05); 
 }
 }
+.btn-secondary{
+  background-color:$white ;
+  border: 2px solid $primaryColor;
+  color: $primaryColor;
+  padding: 10px 70px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+}
