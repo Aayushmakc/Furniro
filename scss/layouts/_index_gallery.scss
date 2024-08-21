@@ -1,4 +1,6 @@
 .index-gallery{
+  padding-left: 0;
+  padding-right: 0;
   .container{
     .gallery-text{
       text-align: center;
@@ -11,5 +13,12 @@
         margin-top: 10px;
       }
     }
+    .row{
+      .card{
+       
+      }
+      
+    }
   }
 }
+
