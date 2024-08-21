@@ -1,0 +1,30 @@
+.index-about {
+   .container{
+     text-align: center;
+
+     .main-description{
+      margin-top: 10px;
+     }
+     .row{
+      margin-left: 100px;
+      width: 90%;
+      margin-top: 50px;
+      padding: 0 40px;
+      
+      .card-img-top{
+        border-radius: 10px;
+        height:450px;
+        object-fit: cover;
+      }
+      .card{
+       border: none;
+        
+      }
+      .card-title{
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 19px;
+      }
+     }
+   }
+}

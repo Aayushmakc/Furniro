@@ -1,0 +1,15 @@
+@import "base/variables";
+@import "base/mixins";
+@import "modules/typography";
+@import "modules/scroll-top";
+@import "modules/common";
+@import "modules/components";
+@import "modules/buttons";
+
+//Index Section Style
+@import "layouts/header";
+@import "layouts/index_banner";
+@import "layouts/index_about";
+@import "layouts/index_product";
+@import "layouts/footer";
+// main pages style

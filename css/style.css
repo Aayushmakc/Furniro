@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap");
+body,
+p,
+a {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+}
+
+/* -- --------------------
+Sroll To Top on Click 
+----------------------
+*/
+.scrollToTop {
+  z-index: 9999;
+  text-align: center;
+  background: #B88E2F;
+  color: #fff;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none !important;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.scrollToTop.d-block {
+  display: block !important;
+}
+.scrollToTop button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scrollToTop button i {
+  padding: 3px;
+  font-size: 18px;
+  color: #fff;
+}
+.scrollToTop:hover {
+  text-decoration: none;
+  background-color: #B88E2F;
+}
+
+/* -- --------------------
+tap-call 
+----------------------
+*/
+.mobile-call-button {
+  position: fixed;
+  bottom: 80px;
+  right: 30px;
+  text-align: center;
+  z-index: 99;
+  width: 40px;
+  height: 40px;
+  background: #B88E2F;
+  border-radius: 50%;
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .mobile-call-button {
+    display: block;
+  }
+}
+.mobile-call-button a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-call-button a i {
+  padding: 3px;
+  font-size: 18px;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .scrollToTop,
+  .mobile-call-button {
+    right: 10px;
+  }
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul li {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  transition: 0.4s all;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+  transition: 0.4s all;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  font-style: normal;
+  cursor: pointer;
+  outline: none;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-border-right {
+  border-right: none !important;
+}
+
+.no-border-left {
+  border-left: none !important;
+}
+
+.no-border-top {
+  border-top: none !important;
+}
+
+.no-border-bottom {
+  border-bottom: none !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.padding {
+  padding: 40px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .padding {
+    padding: 30px 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .padding {
+    padding: 15px 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .padding {
+    padding: 10px 0;
+  }
+}
+section {
+  position: relative;
+}
+
+.section-padding {
+  padding: 80px 0px;
+}
+
+.block-heading {
+  font-size: 28px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.main-description {
+  font-size: 18px;
+  color: #000000;
+}
+
+.sub-description {
+  font-size: 16px;
+  color: #666666;
+}
+
+@media screen and (max-width: 992px) {
+  .section-padding {
+    padding: 40px 0px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .section-padding {
+    padding: 30px 0px;
+  }
+}
+.btn-primary {
+  border: none;
+  color: #FFFFFF;
+  background-color: #B88E2F;
+  border-radius: 10px;
+  padding: 15px 45px;
+  font-size: 12px;
+}
+.btn-primary:hover {
+  background-color: #8f6f25;
+  transform: scale(1.05);
+}
+
+header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+}
+header .navbar .navbar-brand {
+  width: 150px;
+}
+header .navbar .navbar-toggler {
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #666666;
+}
+header .navbar .offcanvas .offcanvas-header img {
+  margin-left: 40px;
+  width: 100px;
+}
+header .navbar .offcanvas .offcanvas-body .navbar-nav {
+  margin-left: 150px;
+}
+header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+  padding-left: 60px;
+  color: #000000;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 13px;
+  transition: 0.3s ease-in-out;
+}
+header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link .fas {
+  font-size: 1rem;
+}
+header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item.active .nav-link, header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item:hover .nav-link {
+  color: #B88E2F;
+}
+header .navbar .offcanvas .offcanvas-body .nav-btn {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  header .navbar {
+    padding: 10px 0px;
+  }
+  header .navbar .navbar-brand {
+    width: 180px;
+  }
+  header .navbar .navbar-toggler {
+    border-radius: 10px;
+  }
+  header .navbar .offcanvas .blur-hero {
+    display: block;
+  }
+  header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+    padding: 5px 10px;
+    color: black;
+  }
+  header .navbar .offcanvas .offcanvas-body .nav-btn {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+}
+.banner {
+  height: 100vh;
+  width: 100%;
+  margin-top: 65px;
+  background-image: url("../images/bannerimage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner .container .banner-content {
+  position: absolute;
+  right: 80px;
+  bottom: 100px;
+  border-radius: 10px;
+  background-color: #FFF3E3;
+  z-index: 3;
+  padding: 60px 50px;
+  padding-bottom: 30px !important;
+}
+.banner .container .banner-content .top-content {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+}
+.banner .container .banner-content .main-title {
+  color: #B88E2F;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.banner .container .banner-content .description {
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.banner .container .banner-content .btn-primary {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 992px) {
+  .banner {
+    padding: 80px 0px 30px 0px;
+  }
+  .banner .hero-banner {
+    flex-direction: column;
+  }
+  .banner .hero-banner .hero-baner-content {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .banner .hero-banner .hero-baner-content .baner-title {
+    font-size: 38px;
+  }
+  .banner .hero-banner .hero-baner-content .main-description {
+    padding: 20px 0px;
+  }
+  .banner .hero-banner .hero-baner-content .banner-btn .btn-primary {
+    border-radius: 5px 5px 5px 30px;
+    margin-right: 30px;
+  }
+  .banner .hero-banner .hero-baner-content .banner-btn .btn-primary:hover {
+    border-radius: 5px 30px 5px 5px;
+  }
+  .banner .hero-banner .hero-baner-content .banner-btn .btn-secondary {
+    border-radius: 5px 30px 5px 5px;
+  }
+  .banner .hero-banner .hero-baner-content .banner-btn .btn-secondary:hover {
+    border-radius: 5px 5px 5px 30px;
+  }
+  .banner .hero-banner .hero-banner-image {
+    width: 100%;
+    height: 300px;
+  }
+  .banner .hero-banner .hero-banner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 200px;
+  }
+  .banner .hero-banner .hero-banner-image img:hover {
+    margin-top: 10px;
+  }
+}
+.index-about .container {
+  text-align: center;
+}
+.index-about .container .main-description {
+  margin-top: 10px;
+}
+.index-about .container .row {
+  margin-left: 100px;
+  width: 90%;
+  margin-top: 50px;
+  padding: 0 40px;
+}
+.index-about .container .row .card-img-top {
+  border-radius: 10px;
+  height: 450px;
+  object-fit: cover;
+}
+.index-about .container .row .card {
+  border: none;
+}
+.index-about .container .row .card-title {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.index-product {
+  background-color: rgb(84, 158, 158);
+}
+
+/*# sourceMappingURL=style.css.map */
