@@ -488,4 +488,38 @@ header .navbar .offcanvas .offcanvas-body .nav-btn {
   margin-top: 2rem;
 }
 
+.index-explore {
+  background-color: #FCF8F3;
+}
+.index-explore .container .explore-content {
+  padding: 80px 30px;
+  width: 40%;
+}
+.index-explore .container .explore-content .block-heading {
+  font-size: 35px;
+}
+.index-explore .container .explore-content .main-description {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #616161;
+}
+.index-explore .container .explore-content .btn {
+  margin-top: 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.index-gallery .container .gallery-text {
+  text-align: center;
+}
+.index-gallery .container .gallery-text .sub-heading {
+  font-size: 17px;
+  color: #616161;
+  font-weight: 600;
+}
+.index-gallery .container .gallery-text .block-heading {
+  margin-top: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */

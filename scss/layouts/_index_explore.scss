@@ -1,0 +1,25 @@
+.index-explore{
+ background-color: $bg;
+ .container{
+  .explore-content{
+    padding:  80px 30px;
+    width: 40%;
+    .block-heading{
+      font-size: 35px;
+      
+    }
+    .main-description{
+      font-size: 16px;
+      margin-top: 10px;
+      color:#616161;
+
+    }
+    .btn{
+      margin-top: 20px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+ }
+}

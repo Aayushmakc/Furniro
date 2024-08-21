@@ -7,6 +7,8 @@
 <?php include 'includes/banner.php'; ?>
 <?php include 'includes/about.php'; ?>
 <?php include 'includes/product.php'; ?>
+<?php include 'includes/explore.php'; ?>
+<?php include 'includes/gallery.php'; ?>
 
 
 
