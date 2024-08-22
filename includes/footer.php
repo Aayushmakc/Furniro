@@ -1,3 +1,49 @@
+<footer class="footer">
+ <div class="container">
+   <div class="footer-content">
+    <div class="footer-section company-info">
+      <h2 class="company-name">Furnio.</h2>
+      <address>
+        400 University Drive Suite 200 Coral Gables,<br>
+        FL 33134 USA
+      </address>
+    </div>
+
+    <div class="footer-section links">
+      <ul>
+        <li><strong>Links</strong></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section help">
+      <ul>
+        <li><strong>Help</strong></li>
+        <li><a href="#">Payment Options</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">Privacy Policies</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section newsletter">
+      <strong>Newsletter</strong>
+      <form action="#">
+        <input type="email" placeholder="Enter Your Email Address">
+        <button type="submit">SUBSCRIBE</button>
+      </form>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <p>2024 Furnio. All rights reserved</p>
+  </div>
+ </div>
+
+  
+</footer>
 
 
 

@@ -1,0 +1,117 @@
+
+.footer {
+  padding: 50px 0;
+  font-family: 'Public Sans', sans-serif;
+  border-top: 1px solid #ddd;
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-top: 30px !important;
+
+    .footer-section {
+      flex: 1;
+      margin: 0px 20px;
+
+      .company-name {
+        font-size: 24px;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 50px;
+  
+      }
+
+      address {
+        font-size: 14px;
+        color: #9F9F9F;
+        line-height: 1.5;
+      }
+      
+
+      ul { 
+        list-style: none;
+        padding: 0;
+
+        li {
+          padding-bottom: 50px;
+
+          strong {
+            font-size: 16px;
+            color: #9F9F9F;
+            font-weight: 500;
+          }
+
+          a {
+            text-decoration: none;
+            color: $black;
+            font-size: 14px;
+
+            &:hover {
+              color: #333;
+            }
+          }
+        }
+      }
+    }
+    .links{
+      padding-left: 70px !important;
+    }
+
+    .newsletter {
+      strong {
+        color: #9F9F9F;
+        font-weight: 500;
+        margin-bottom: 20px;
+      }
+
+      form {
+        display: flex;
+        align-items: center; 
+        margin-top: 20px;
+
+        input {
+          padding: 10px;
+          width: 250px;  
+          border: none;
+          border-bottom: 2px solid $black;
+          margin-right: 10px;
+          font-size: 14px;
+
+          &::placeholder {
+            color: #9F9F9F;
+            opacity: 1;  
+          }
+        }
+
+        button {
+          background-color:$primaryColor;
+          color:$white;
+          padding: 10px 30px;
+          border: none;
+          border-radius: 50px;
+          font-size: 14px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #a77d4b;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    padding: 40px 0;
+
+    p {
+      font-size: 16px;
+      color:$black;
+      margin: 0;
+      
+    }
+  }
+}
