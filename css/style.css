@@ -448,6 +448,49 @@ header .navbar .offcanvas .offcanvas-body .nav-btn {
   background-color: #F4F5F7;
   padding-bottom: 20px;
   margin-top: 30px;
+  position: relative;
+}
+.index-product .container .row .card .card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
+.index-product .container .row .card:hover .card-overlay {
+  opacity: 1;
+}
+.index-product .container .row .card .add-to-cart-button {
+  background-color: #FFFFFF;
+  color: #B88E2F;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+.index-product .container .row .card .icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.index-product .container .row .card .icons-container .icon {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+.index-product .container .row .card .icons-container .icon i {
+  margin-right: 5px;
 }
 .index-product .container .row .card .badge {
   border-radius: 50%;

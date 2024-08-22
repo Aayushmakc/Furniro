@@ -1,45 +1,103 @@
-.index-product{
+.index-product {
   padding-top: 20px !important;
-  .container{
-    .text-center{
+
+  .container {
+    .text-center {
       font-size: 38px;
       font-weight: 700;
     }
-    .row{
-      .card{
+
+    .row {
+      .card {
         border: none;
         background-color: #F4F5F7;
         padding-bottom: 20px;
         margin-top: 30px;
-        .badge{
+        position: relative; 
+
+        .card-overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.6); 
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+          z-index: 10; 
+        }
+
+        &:hover .card-overlay {
+          opacity: 1;
+        }
+
+        .add-to-cart-button {
+          background-color: $white;
+          color:$primaryColor;
+          border: none;
+          padding: 10px 40px;
+          border-radius:10px;
+          cursor: pointer;
+          font-size: 1rem;
+          margin-bottom: 15px;
+        }
+
+        .icons-container {
+          display: flex;
+          justify-content: center; 
+          gap: 15px;
+
+          .icon {
+            color: white;
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+
+            i {
+              margin-right: 5px; 
+            }
+          }
+        }
+
+        .badge {
           border-radius: 50%;
           padding: 15px 10px;
-          &.custom-badge{
+
+          &.custom-badge {
             background-color: #E97171;
           }
-          &.custom{
+
+          &.custom {
             background-color: #2EC1AC;
           }
         }
-        .card-img-top{
+
+        .card-img-top {
           height: 300px;
           object-fit: cover;
         }
-        .card-body{
-          .card-title{
+
+        .card-body {
+          .card-title {
             font-size: 22px;
             font-weight: 700;
           }
-          .card-text{
+
+          .card-text {
             font-size: 16px;
             color: #898989;
           }
-          .card-price{
+
+          .card-price {
             margin-top: 10px;
             font-size: 17px;
             font-weight: 600;
-           
-            del{
+
+            del {
               margin-left: 20px;
               font-weight: 400;
               font-size: 14px;
@@ -49,6 +107,7 @@
         }
       }
     }
+
     .button-wrapper {
       display: flex;
       justify-content: center;
@@ -56,6 +115,3 @@
     }
   }
 }
-
-
-

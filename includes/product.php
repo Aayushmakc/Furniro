@@ -6,6 +6,14 @@
       <!-- Card 1 -->
       <div class="col-lg-3">
         <div class="card">
+        <div class="card-overlay">
+            <button class="add-to-cart-button btn btn-primary">Add to Cart</button>
+            <div class="icons-container">
+              <div class="icon"><i class="fas fa-share"></i> Share</div>
+              <div class="icon"><i class="fas fa-exchange-alt"></i> Compare</div>
+              <div class="icon"><i class="fas fa-heart"></i> Like</div>
+            </div>
+          </div>
           <div class="position-absolute top-0 end-0 p-2">
             <span class="badge custom-badge">-30%</span>
           </div>
@@ -15,11 +23,20 @@
             <p class="card-text">Stylish cafe chair</p>
             <p class="card-price"> Rp 2.500.000 <del>Rp 3.500.000</del></p>
           </div>
+          
         </div>
       </div>
       <!-- Card 2 -->
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
+        <div class="card-overlay">
+            <button class="add-to-cart-button btn btn-primary">Add to Cart</button>
+            <div class="icons-container">
+              <div class="icon"><i class="fas fa-share"></i> Share</div>
+              <div class="icon"><i class="fas fa-exchange-alt"></i> Compare</div>
+              <div class="icon"><i class="fas fa-heart"></i> Like</div>
+            </div>
+          </div>
           <img src="./images/Leviosa.png" class="card-img-top" alt="Product 2">
           <div class="card-body">
             <h5 class="card-title">Leviosa</h5>
@@ -31,6 +48,14 @@
       <!-- Card 3 -->
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
+        <div class="card-overlay">
+            <button class="add-to-cart-button btn btn-primary">Add to Cart</button>
+            <div class="icons-container">
+              <div class="icon"><i class="fas fa-share"></i> Share</div>
+              <div class="icon"><i class="fas fa-exchange-alt"></i> Compare</div>
+              <div class="icon"><i class="fas fa-heart"></i> Like</div>
+            </div>
+          </div>
           <div class="position-absolute top-0 end-0 p-2">
             <span class="badge custom-badge">-50%</span>
           </div>
@@ -45,6 +70,14 @@
       <!-- Card 4 -->
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
+        <div class="card-overlay">
+            <button class="add-to-cart-button btn btn-primary">Add to Cart</button>
+            <div class="icons-container">
+              <div class="icon"><i class="fas fa-share"></i> Share</div>
+              <div class="icon"><i class="fas fa-exchange-alt"></i> Compare</div>
+              <div class="icon"><i class="fas fa-heart"></i> Like</div>
+            </div>
+          </div>
           <div class="position-absolute top-0 end-0 p-2">
             <span class="badge custom">New</span>
           </div>
@@ -64,6 +97,14 @@
       <!-- Card 1 -->
       <div class="col-lg-3">
         <div class="card">
+        <div class="card-overlay">
+            <button class="add-to-cart-button btn btn-primary">Add to Cart</button>
+            <div class="icons-container">
+              <div class="icon"><i class="fas fa-share"></i> Share</div>
+              <div class="icon"><i class="fas fa-exchange-alt"></i> Compare</div>
+              <div class="icon"><i class="fas fa-heart"></i> Like</div>
+            </div>
+          </div>
           <img src="./images/Grifo.png" class="card-img-top" alt="Product 1">
           <div class="card-body">
             <h5 class="card-title"> Grifo </h5>
@@ -75,6 +116,14 @@
       <!-- Card 2 -->
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
+        <div class="card-overlay">
+            <button class="add-to-cart-button btn btn-primary">Add to Cart</button>
+            <div class="icons-container">
+              <div class="icon"><i class="fas fa-share"></i> Share</div>
+              <div class="icon"><i class="fas fa-exchange-alt"></i> Compare</div>
+              <div class="icon"><i class="fas fa-heart"></i> Like</div>
+            </div>
+          </div>
         <div class="position-absolute top-0 end-0 p-2">
             <span class="badge custom">New</span>
           </div>
@@ -89,6 +138,14 @@
       <!-- Card 3 -->
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
+        <div class="card-overlay">
+            <button class="add-to-cart-button btn btn-primary">Add to Cart</button>
+            <div class="icons-container">
+              <div class="icon"><i class="fas fa-share"></i> Share</div>
+              <div class="icon"><i class="fas fa-exchange-alt"></i> Compare</div>
+              <div class="icon"><i class="fas fa-heart"></i> Like</div>
+            </div>
+          </div>
           <div class="position-absolute top-0 end-0 p-2">
             <span class="badge custom-badge">-50%</span>
           </div>
@@ -103,6 +160,14 @@
       <!-- Card 4 -->
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
+        <div class="card-overlay">
+            <button class="add-to-cart-button btn btn-primary">Add to Cart</button>
+            <div class="icons-container">
+              <div class="icon"><i class="fas fa-share"></i> Share</div>
+              <div class="icon"><i class="fas fa-exchange-alt"></i> Compare</div>
+              <div class="icon"><i class="fas fa-heart"></i> Like</div>
+            </div>
+          </div>
           <div class="position-absolute top-0 end-0 p-2">
             <span class="badge custom">New</span>
           </div>
