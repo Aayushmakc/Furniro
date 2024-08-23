@@ -426,7 +426,7 @@
   <div class="container">
     <div class="feature-item">
 
-      <img src="./images/trophy.png">
+      <img src="./images/trofy.png">
       <div class="feature-text">
         <h3>High Quality</h3>
         <p>Crafted from top materials</p>
@@ -442,7 +442,7 @@
     </div>
     <div class="feature-item">
 
-      <img src="./images/delivery.png">
+      <img src="./images/delivery (2).png">
       <div class="feature-text">
         <h3>Free Shipping</h3>
         <p>Order over 150 $</p>
@@ -450,7 +450,7 @@
     </div>
     <div class="feature-item">
 
-      <img src="./images/headset.png">
+      <img src="./images/headphone.png">
       <div class="feature-text">
         <h3>24 / 7 Support</h3>
         <p>Dedicated support</p>
