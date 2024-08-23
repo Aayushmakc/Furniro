@@ -10,6 +10,4 @@
 <?php include 'includes/explore.php'; ?>
 <?php include 'includes/gallery.php'; ?>
 
-
-
 <?php include 'includes/footer.php'; ?>

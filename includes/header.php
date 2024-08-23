@@ -56,10 +56,10 @@ $co        =    "Furniro";
                                 <a href="./" class="nav-link">Home</a>
                             </li>
                             <li class="nav-item <?php if ($page == 'shop') { echo 'active'; } ?>">
-                                <a href="about" class="nav-link">Shop</a>
+                                <a href="shop.php" class="nav-link">Shop</a>
                             </li>
                             <li class="nav-item <?php if ($page == 'about') { echo 'active'; } ?>">
-                                <a href="service" class="nav-link">About</a>
+                                <a href="about" class="nav-link">About</a>
                             </li>
                             <li class="nav-item <?php if ($page == 'contact') { echo 'active'; } ?>">
                                 <a href="contact" class="nav-link">Contact</a>
