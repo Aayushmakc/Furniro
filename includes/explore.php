@@ -2,11 +2,11 @@
   <div class="container">
     <div class="explore-content">
       <h1 class="block-heading">
-        50+ Beautiful rooms<br>
+        50+ Beautiful rooms
         inspiration
       </h1>
       <p class="main-description">
-        Our designer already made a lot of beautiful<br> prototipe of rooms that inspire you
+        Our designer already made a lot of beautiful prototipe of rooms that inspire you
       </p>
       <!-- Button Wrapper -->
       <div class="button-wrapper">

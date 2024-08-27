@@ -5,8 +5,13 @@ header {
     left: 0;
     width: 100%;
     background-color: white;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     .navbar {
+        width: 100%;
+        padding: 10px;
+
         .navbar-brand {
             width: 150px;
            
@@ -30,6 +35,7 @@ header {
 
             .offcanvas-body {
 
+
                 .navbar-nav {
                     margin-left: 150px;
                     .nav-item {
@@ -38,7 +44,7 @@ header {
                             padding-left: 60px;
                             color:$black;
                             font-weight: 400;
-                            text-transform: capitalize;
+                            text-transform:capitalize;
                             font-size: 13px;
                             transition: 0.3s ease-in-out;
                             .fas{
@@ -68,66 +74,11 @@ header {
         }
     }
 
-    // &.fixed-header {
-    //     position: fixed;
-    //     top: 0;
-    //     left: 0;
-    //     right: 0;
-    //     z-index: 999;
-    //     background-color: $secondaryColor;
-    //     background-image: none;
-    //     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.082);
-
-    //     .navbar {
-    //         padding: 10px 0px;
-
-    //         .navbar-brand {
-    //             width: 120px;
-    //         }
-
-
-
-    //         .offcanvas {
-
-
-
-    //             .offcanvas-body {
-
-    //                 .navbar-nav {
-    //                     .nav-item {
-    //                         .nav-link {
-    //                             color: black;
-                              
-
-    //                         }
-
-    //                         &.active,
-    //                         &:hover {
-    //                             .nav-link {
-    //                                 color:$primaryColor;
-
-    //                             }
-    //                         }
-
-
-    //                     }
-    //                 }
-
-    //                 .nav-btn {
-    //                     margin-left: 40px;
-    //                 }
-
-    //             }
-
-    //         }
-    //     }
-
-    // }
+   
 }
 
 // break points 
-
-@include custom_max(992px) {
+@include custom_max(1024px) {
     header {
 
 
@@ -153,8 +104,7 @@ header {
                     .navbar-nav {
                         .nav-item {
                             .nav-link {
-                                padding: 5px 10px;
-                                color:black;
+                               padding-left: 40px;
 
                             }
 
@@ -162,11 +112,7 @@ header {
 
                         }
                     }
-
-                    .nav-btn {
-                        margin-left: 0px;
-                        margin-top: 30px;
-                    }
+                    
 
                 }
 
@@ -179,25 +125,57 @@ header {
 
 }
 
-// @include custom_max(767px) {}
+@include custom_max(992px) {
+    header {
 
-// @include custom_max(576px) {}
-// .header{
-//    position: fixed;
-//    top:0;
-//    left: 0;
-//    z-index: 99;
-//    display: flex;
-//    justify-content: space-between;
-//    width: 100%;
+
+        .navbar {
+            padding: 10px 0px;
+
+            .navbar-brand {
+                width: 180px;
+            }
+
+            .navbar-toggler {
+                border-radius: 10px;
+            }
+
+            .offcanvas {
+                .blur-hero {
+                    display: block;
+                }
+
+
+                .offcanvas-body {
+                  display: block;
+                    
+
+                }
+
+            }
+        }
+
+
+    }
+
+
+}
+
+@include custom_max(767px) {}
+
+@include custom_max(576px) {}
+.header{
+   position: fixed;
+   top:0;
+   left: 0;
+   z-index: 99;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
    
-//    .navbar {
-//             .navbar-brand {
-//                 width: 150px;
-//             }
-//             .navbar-toggler {
-//                             background-color: black;
-//                             border-radius: 3px;
-//                             border: 1px solid $t-color;
-//                         }
-// }}
+   .navbar {
+            .navbar-brand {
+                width: 150px;
+            }
+           
+}}

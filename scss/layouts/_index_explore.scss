@@ -3,7 +3,7 @@
  .container{
   .explore-content{
     padding:  80px 30px;
-    width: 40%;
+    width: 35%;
     .block-heading{
       font-size: 35px;
       
@@ -22,4 +22,16 @@
     }
   }
  }
+}
+
+@media screen and (max-width:576px){
+  .index-explore{
+    .container{
+      .explore-content{
+        padding:  80px 30px;
+        width: 100%;
+      }
+    }
+  }
+  
 }
