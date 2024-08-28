@@ -1422,14 +1422,14 @@ header .navbar .offcanvas .offcanvas-body .nav-btn {
   }
 }
 @media screen and (max-width: 576px) {
-  .contact-text .section-title {
+  .contact-page .container .contact-section .contact-text .section-title {
     font-size: 30px;
   }
-  .contact-text .section-subtitle {
+  .contact-page .container .contact-section .contact-text .section-subtitle {
     font-size: 12px;
     margin-bottom: 60px;
   }
-  .contact-container .contact-info {
+  .contact-page .container .contact-section .contact-container .contact-info {
     margin-left: 10px;
   }
 }

@@ -178,19 +178,27 @@
 
 
 @media screen and (max-width:576px) {
-  .contact-text{
-    .section-title{
-      font-size: 30px;
-    }
-    .section-subtitle{
-      font-size: 12px;
-      margin-bottom: 60px;
+
+  .contact-page{
+    .container{
+      .contact-section{
+        .contact-text{
+            .section-title{
+              font-size: 30px;
+            }
+            .section-subtitle{
+              font-size: 12px;
+              margin-bottom: 60px;
+            }
+          }
+          .contact-container{
+              .contact-info{
+                margin-left: 10px;
+              }
+            }
+      }
     }
   }
-  .contact-container{
-    .contact-info{
-      margin-left: 10px;
-    }
-  }
+ 
   
 }
