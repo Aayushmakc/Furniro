@@ -42,6 +42,7 @@
 @media (max-width: 768px) {
   .features-section {
     .container {
+      flex-wrap: nowrap;
       .feature-item {
         flex-direction: column;
         text-align: center;
@@ -54,4 +55,22 @@
       }
     }
   }
+}
+
+@media screen and (max-width:576px){
+  .features-section {
+    .container {
+      .feature-item {
+        flex-direction: column;
+        text-align: center;
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+      }
+
+      .feature-item i {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  
 }

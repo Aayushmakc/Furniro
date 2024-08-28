@@ -389,4 +389,80 @@
   }
 
 }
+@media screen and (max-width: 576px) {
+  .shop-page{
+  .additional-section{
+  padding: 20px 0px; 
 
+  .controls {
+    gap:30px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px !important; 
+
+    .icon-group {
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+
+    .results-info {
+      .result-count {
+        font-size: 14px;
+        margin-left: 0; 
+      }
+    }
+
+    .options {
+      gap:20px;
+      justify-content: space-between;
+      margin-right: 0; 
+
+      .show-text,
+      .sort-label {
+        font-size: 0.9rem; 
+        
+      }
+
+      .disabled-input {
+        width: 50px; 
+      }
+      .second{
+        width: 150px; 
+      }
+      
+    }
+  }
+}
+}
+}
+
+
+//For cards
+@media screen and (max-width: 576px) {
+  .shop-page{
+    .container {
+      .row {
+        margin-bottom: 10px;
+        .col-lg-3{
+          flex: 0 0 auto;
+          width: 90%;
+          padding-left: 60px;
+        }
+       
+        }
+        .box-container{
+          .box{
+            margin-top: 0 !important;
+            margin-right: 20px;
+            padding:10px 15px;
+          }
+          .next{
+            padding:10px 20px;
+          }
+        
+    }
+  }
+
+   
+}
+}

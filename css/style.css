@@ -295,6 +295,20 @@ section {
 }
 
 @media (max-width: 768px) {
+  .features-section .container {
+    flex-wrap: nowrap;
+  }
+  .features-section .container .feature-item {
+    flex-direction: column;
+    text-align: center;
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+  .features-section .container .feature-item i {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
   .features-section .container .feature-item {
     flex-direction: column;
     text-align: center;
@@ -1215,6 +1229,58 @@ header .navbar .offcanvas .offcanvas-body .nav-btn {
   }
   .shop-page .additional-section .controls .options .second {
     width: 100px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .shop-page .additional-section {
+    padding: 20px 0px;
+  }
+  .shop-page .additional-section .controls {
+    gap: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px !important;
+  }
+  .shop-page .additional-section .controls .icon-group {
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .shop-page .additional-section .controls .results-info .result-count {
+    font-size: 14px;
+    margin-left: 0;
+  }
+  .shop-page .additional-section .controls .options {
+    gap: 20px;
+    justify-content: space-between;
+    margin-right: 0;
+  }
+  .shop-page .additional-section .controls .options .show-text,
+  .shop-page .additional-section .controls .options .sort-label {
+    font-size: 0.9rem;
+  }
+  .shop-page .additional-section .controls .options .disabled-input {
+    width: 50px;
+  }
+  .shop-page .additional-section .controls .options .second {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .shop-page .container .row {
+    margin-bottom: 10px;
+  }
+  .shop-page .container .row .col-lg-3 {
+    flex: 0 0 auto;
+    width: 90%;
+    padding-left: 60px;
+  }
+  .shop-page .container .box-container .box {
+    margin-top: 0 !important;
+    margin-right: 20px;
+    padding: 10px 15px;
+  }
+  .shop-page .container .box-container .next {
+    padding: 10px 20px;
   }
 }
 

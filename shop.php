@@ -44,7 +44,7 @@
     <!-- Row one -->
     <div class="row">
       <!-- Card 1 -->
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
           <div class="card-overlay">
             <button class="add-to-cart-button btn btn-primary">Add to Cart</button>
@@ -135,7 +135,7 @@
     <!-- Row two -->
     <div class="row">
       <!-- Card 1 -->
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
           <div class="card-overlay">
             <button class="add-to-cart-button btn btn-primary">Add to Cart</button>
@@ -227,7 +227,7 @@
     <!-- Row three -->
     <div class="row">
       <!-- Card 1 -->
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
           <div class="card-overlay">
             <button class="add-to-cart-button btn btn-primary">Add to Cart</button>
