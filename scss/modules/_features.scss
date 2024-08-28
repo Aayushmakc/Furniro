@@ -60,6 +60,7 @@
 @media screen and (max-width:576px){
   .features-section {
     .container {
+      flex-wrap: wrap;
       .feature-item {
         flex-direction: column;
         text-align: center;
