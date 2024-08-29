@@ -7,7 +7,7 @@
       <img src="./images/logo.png" alt="">
       <h1 class="block-heading">Contact</h1>
       <p>
-        <a href="#">Home</a>
+        <a href="index.php">Home</a>
         <span class="separator"></span>
         <a class="shop" href="#">Contact</a>
       </p>

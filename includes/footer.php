@@ -12,10 +12,10 @@
     <div class="footer-section links">
       <ul>
         <li><strong>Links</strong></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Shop</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="Shop.php">Shop</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="Contact.php">Contact</a></li>
       </ul>
     </div>
 

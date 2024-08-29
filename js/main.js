@@ -1,11 +1,6 @@
 $ = jQuery.noConflict()
 $(document).ready(function () {
 
-
-
-
-
-
     // Header Fixed on Scroll
     $(window).on("load resize scroll", function () {
         var sticky = $(".header"),
@@ -60,6 +55,65 @@ $(document).ready(function () {
 //   });
   
 
+
+//   For Contac form
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector(".contact-form form");
+    
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        
+        // Get form fields
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const subject = document.getElementById("subject").value.trim();
+        const message = document.getElementById("message").value.trim();
+        
+        // Validate name
+        if (name === "") {
+            alert("Please enter your name.");
+            return;
+        }
+        
+        // Validate email
+        if (email === "" || !validateEmail(email)) {
+            alert("Please enter a valid email address.");
+            return;
+        }
+        
+        // Validate message
+        if (message === "") {
+            alert("Please enter your message.");
+            return;
+        }
+        
+       
+        alert("Form submitted successfully!");
+        form.submit(); 
+    });
+    
+    // Function to validate email format
+    function validateEmail(email) {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(email);
+    }
+});
+
+
+//   Newsletter Validation
+$(document).ready(function() {
+   
+    $('form').on('submit', function(e) {
+      var email = $(this).find('input[type="email"]').val();
+      
+      if (email === "") {
+        e.preventDefault(); 
+        alert("Please enter your email address.");
+      } else {
+        alert("Thank you for subscribing!");
+      }
+    });
+  });
   
   
   

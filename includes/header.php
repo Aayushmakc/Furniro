@@ -62,10 +62,10 @@ $co        =    "Furniro";
                                                     } ?>">
                                     <a href="shop.php" class="nav-link">Shop</a>
                                 </li>
-                                <li class="nav-item <?php if ($page == 'about') {
+                                <li class="nav-item <?php if ($page == 'blog') {
                                                         echo 'active';
                                                     } ?>">
-                                    <a href="about" class="nav-link">About</a>
+                                    <a href="blog" class="nav-link">Blog</a>
                                 </li>
                                 <li class="nav-item <?php if ($page == 'contact') {
                                                         echo 'active';

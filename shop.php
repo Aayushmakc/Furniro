@@ -7,9 +7,9 @@
       <div class="breadcrumb-content">
         <h1 class="block-heading">Shop</h1>
         <p>
-          <a href="#">Home</a>
+          <a href="index.php">Home</a>
           <span class="separator"></span>
-          <a class="shop" href="#">Shop</a>
+          <a class="shop" href="shop.php">Shop</a>
         </p>
       </div>
     </div>
