@@ -406,6 +406,9 @@
       </div>
 
     </div>
+
+     <!-- Pagination -->
+      
     <div class="box-container">
       <div id="box1" class="box"> 1</div>
       <div id="box2" class="box">2</div>

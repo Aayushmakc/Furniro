@@ -9,7 +9,7 @@
       <p>
         <a href="index.php">Home</a>
         <span class="separator"></span>
-        <a class="shop" href="#">Contact</a>
+        <a class="shop" href="contact.php">Contact</a>
       </p>
     </div>
   </div>
