@@ -211,6 +211,9 @@
               margin-right: 0;
               width: 20px;
             }
+            span {
+              font-size: 15px;
+            }
 
           }
 
@@ -225,6 +228,17 @@
 
           .read-more {
             font-size: 15px;
+          }
+        }
+      }
+     }
+     .sidebar{
+      .categories{
+        ul{
+          li{
+            span{
+              padding-right: 40px;
+            }
           }
         }
       }
@@ -259,7 +273,7 @@
       .main-content{
          .blog-post {
          margin-bottom: 40px; 
-         padding-left: 40px;
+         padding-left: 30px;
         img {
           width: 95%; 
         }
@@ -301,7 +315,7 @@
       }
 
       .sidebar {
-        padding-left: 40px;
+        padding-left: 30px;
         .search-box {
           width: 80%;
 
